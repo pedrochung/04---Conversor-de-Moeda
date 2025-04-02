@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Archivo Narrow", sans-serif;
+    outline: none;
+    appearance: none;
+}
+
+body {
+    background-color: #ECE1BD;
+    width: 100vw;
+    height: 100vh;
+}
+
+.div-all {}
+
+.converter-logo {
+    width: 300px;
+    display: block;
+    margin: 20px auto 0 auto;
+
+}
+
+.menu {
+    margin: 0 auto;
+    display: block;
+    background-color: #A66B24;
+    width: 375px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    padding: 44px 24px;
+}
+
+label {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 18px;
+    color: #DFB348;
+}
+
+select,
+input {
+    height: 48px;
+    border-radius: 4px;
+    border: 1px solid #E6BC52;
+    background-color: #8BB0A7;
+    font-weight: 700;
+    font-size: 21px;
+    line-height: 18px;
+    letter-spacing: 0%;
+    vertical-align: middle;
+    color: #718439;
+    padding: 15px;
+    width: 100%;
+    margin-bottom: 24px;
+    margin-top: 6px;
+}
+
+.converter-button {
+    font-weight: 700;
+    font-size: 21px;
+    line-height: 18px;
+    letter-spacing: 0%;
+    vertical-align: middle;
+    height: 48px;
+    width: 100%;
+    color: #DFB348;
+    border-radius: 9px;
+    background-color: #4E6730;
+    border: 1px solid #E6BC52;
+    margin-bottom: 36px;
+
+}
+
+section {
+    width: 100%;
+    height: auto;
+    border: 2px solid #E6BC52;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 12px;
+}
+
+.base-div,
+.target-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.arrow-png {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    width: 40px;
+}
+
+.text-base,
+.text-target {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+    letter-spacing: 0%;
+    vertical-align: middle;
+    color: #DFB348;
+    margin: 3px;
+}
+
+.base-value,
+.target-value {
+    font-weight: 900;
+    font-size: 20px;
+    line-height: 20px;
+    letter-spacing: 0%;
+    vertical-align: middle;
+    color: #DFB348;
+}

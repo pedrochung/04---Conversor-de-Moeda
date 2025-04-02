@@ -1,54 +1,62 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Archivo+Narrow:ital,wght@0,400..700;1,400..700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
     <title>Currency Converter</title>
 </head>
+
 <body>
-    <div>
-        <img src="./assets/converter-logo.png" alt="converter-logo">
+    <div class="div-all">
+        <img class="converter-logo" src="./assets/converter-logo.png" alt="converter-logo">
 
-        <main>
+        <main class="menu">
             <label>
-                Converter <b>de</b>
-                <select>
-                    <option>R$ Real Brasileiro</option>
+                Converter <b>de:</b>
+                <select class="base-select">
+                    <option><b>R$ Real Brasileiro</b></option>
                 </select>
             </label>
 
             <label>
-                Converter <b>para</b>
-                <select>
-                    <option>US$ Dólar americano</option>
-                    <option>¥ Iene Japones</option>
+                Converter <b>para:</b>
+                <select class="target-select">
+                    <option><b>US$ Dólar americano</b></option>
+                    <option><b>¥ Iene Japones</b></option>
                 </select>
             </label>
 
             <label>
-                <b>Valor</b>
+                <b>Valor:</b>
                 <input placeholder="R$ 10.000,00">
             </label>
 
-            <button>Converter</button>
+            <button class="converter-button">Converter</button>
 
             <section>
-                <div>
+                <div class="base-div">
                     <img src="./assets/brl.png" alt="real-logo">
-                    <p>Real</p>
-                    <p>R$ 10.000,00</p>
+                    <p class="text-base">Real</p>
+                    <p class="base-value">R$ 10.000,00</p>
                 </div>
 
-                <img src="./assets/arrow.png" alt="">
+                <img class="arrow-png" src="./assets/seta.png" alt="">
 
-                <div>
+                <div class="target-div">
                     <img src="./assets/usd.png" alt="dolar-logo">
-                    <p>Dólar Americano</p>
-                    <p>US$ 2.000,00</p>
+                    <p class="text-target">Dólar Americano</p>
+                    <p class="target-value">US$ 2.000,00</p>
                 </div>
             </section>
 
         </main>
     </div>
 </body>
+
 </html>
