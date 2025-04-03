@@ -71,7 +71,15 @@ input {
     background-color: #4E6730;
     border: 1px solid #E6BC52;
     margin-bottom: 36px;
+    cursor: pointer;
+}
 
+button:hover{
+    opacity: 0.9;
+}
+
+button:active{
+    opacity: 0.75;
 }
 
 section {
